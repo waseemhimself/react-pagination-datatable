@@ -130,7 +130,7 @@ function App() {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button onClick={handleCustomSelect} style={{ marginLeft: "10px" }}>
+        <button onClick={handleCustomSelect} style={{ backgroundColor:"white", marginLeft: "10px" }}>
           Apply
         </button>
       </div>
